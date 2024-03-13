@@ -1,4 +1,4 @@
-source code of my [homepage](https://vinthony.github.io/academic)
+source code of my [homepage](https://acad.arjf.me)
 
 ## Credits
 
