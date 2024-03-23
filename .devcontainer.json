@@ -26,8 +26,8 @@
 	// More info: https://containers.dev/implementors/json_reference/#port-attributes
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sudo apt update && sudo apt install ruby-full build-essential zlib1g-dev && gem install ruby bundler webrick github-pages"
+	"postCreateCommand": "sudo apt update && sudo apt install -yy ruby-full build-essential zlib1g-dev && gem install ruby bundler webrick github-pages",
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"remoteUser": "root"
 }
